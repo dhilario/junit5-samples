@@ -1,0 +1,21 @@
+repositories {
+	mavenCentral()
+	mavenLocal()
+}
+
+ext.junitVintageVersion  = '4.12.0-SNAPSHOT'
+ext.junitJupiterVersion  = '5.0.0-SNAPSHOT'
+ext.junitAntPluginVersion  = '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+dependencies {
+	testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
+	testRuntime("org.junit.vintage:junit-vintage-engine:${junitVintageVersion}")
+	testRuntime("org.junit.platform:junit-platform-ant-plugin:${junitAntPluginVersion}")
+}
+
+task copyRuntimeLibs(type: Copy) {
+	into "libs"
+	from configurations.testRuntime
+}

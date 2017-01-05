@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="3" skipped="1" failures="0" errors="0" time="0.041" hostname="paris-System-Product-Name" timestamp="2017-01-05T22:18:33">
+<properties>
+<property name="ant.home" value="/usr/share/ant"/>
+<property name="ant.library.dir" value="/usr/share/ant/lib"/>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="java.class.path" value="/usr/share/ant/lib/ant-launcher.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/xercesImpl.jar:/home/dannhilario/git/junit5-samples/junit5-ant-consumer/libs/junit-platform-commons-1.0.0-SNAPSHOT.jar:/home/dannhilario/git/junit5-samples/junit5-ant-consumer/libs/junit-platform-engine-1.0.0-SNAPSHOT.jar:/home/dannhilario/git/junit5-samples/junit5-ant-consumer/libs/opentest4j-1.0.0-M1.jar:/home/dannhilario/git/junit5-samples/junit5-ant-consumer/libs/hamcrest-core-1.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/lib/jvm/java-8-oracle/lib/tools.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+<property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+<property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_111-b14"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_111"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.111-b14"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="3.13.0-37-generic"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+<property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.desktop" value="gnome"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp libs/junit-platform-commons-1.0.0-SNAPSHOT.jar:libs/junit-platform-engine-1.0.0-SNAPSHOT.jar:libs/opentest4j-1.0.0-M1.jar:libs/hamcrest-core-1.3.jar"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="PH"/>
+<property name="user.dir" value="/home/dannhilario/git/junit5-samples/junit5-ant-consumer"/>
+<property name="user.home" value="/home/dannhilario"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="dannhilario"/>
+<property name="user.timezone" value="Asia/Manila"/>
+</properties>
+<testcase name="mySecondTest()" classname="com.example.project.SecondTest" time="0">
+<skipped><![CDATA[void com.example.project.SecondTest.mySecondTest() is @Disabled]]></skipped>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.SecondTest]/[method:mySecondTest()]
+display-name: mySecondTest()
+]]></system-out>
+</testcase>
+<testcase name="anotherTest()" classname="com.example.project.FirstTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.FirstTest]/[method:anotherTest()]
+display-name: anotherTest()
+]]></system-out>
+</testcase>
+<testcase name="myFirstTest(org.junit.jupiter.api.TestInfo)" classname="com.example.project.FirstTest" time="0.006">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.example.project.FirstTest]/[method:myFirstTest(org.junit.jupiter.api.TestInfo)]
+display-name: My 1st JUnit 5 test! 😎
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
